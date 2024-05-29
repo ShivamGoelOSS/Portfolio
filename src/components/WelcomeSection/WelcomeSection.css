@@ -1,0 +1,58 @@
+.welcomeSection{
+    position: relative;
+}
+.welcome-banner{
+    background-image: url("../../assets/welcome-banner.jpg");
+    height: 130vh;
+    width: 100vw;
+    background-position: -350px -70px;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+.welcome-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 122vh;
+    background-color: rgba(31,44, 108, 0.65) ;
+}
+.welcome-greet{
+    position: absolute;
+    left: 40vw;
+    top: 23vh;
+    color: white;
+    font-size: 54px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+#comma{
+    color: #d92cf9;
+}
+#dot{
+    color: #d92cf9;
+}
+#welcome-role{
+    color: white;
+    position: absolute;
+    left: 33vw;
+    top: 70vh;
+    font-family: sans-serif;
+    font-size:20px;
+    letter-spacing: 1px;
+}
+#btn-resume{
+    margin-top: 5vh;
+    color: white;
+    background-color: #b636ff;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 80vh;
+    left: 41.5vw;
+    height: 10vh;
+    font-family: sans-serif;
+    width: 17vw;
+    font-size: 1.1rem;
+}
