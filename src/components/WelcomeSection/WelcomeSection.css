@@ -1,5 +1,6 @@
 .welcomeSection{
     position: relative;
+    top: 0vh;
 }
 .welcome-banner{
     background-image: url("../../assets/welcome-banner.jpg");

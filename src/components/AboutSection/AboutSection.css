@@ -1,0 +1,90 @@
+.about{
+    color: #43485c;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    height: 12vh;
+    border-bottom: 0.5px solid lightgray;
+}
+.about-side{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 18vh;
+    height: 106vh;
+}
+.about-left{
+    width: 45%;
+    margin-left: 3vw;
+}
+.intro-overview{
+    font-size: 18px;
+    line-height: 5vh;
+    color: #3c4258;
+    font-family: sans-serif;
+    text-align: left;
+    width: 40vw;
+}
+.intro-detail{
+    margin-top: 6vh;
+    color: #999fb3;
+    font-family: sans-serif;
+    line-height: 5vh;
+    padding-bottom: 7vh;
+    border-bottom: 1px solid lightgray;
+    font-size: 1.1rem;
+    text-align: left;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6vh;
+    width: 100%;
+}
+.contact h3{
+    text-align: left;
+    color: #636a82;
+    font-family: sans-serif;
+}
+.contact p{
+    color: #999fb3;
+    font-family: sans-serif;
+}
+.about-right{
+    width: 50%;
+    position: relative;
+}
+.about-right img{
+    width: 450px;
+    height: 468px;
+    margin-left: 8vw;
+}
+.user-portrait-overlay{
+    position: absolute;
+    top: 0vh;
+    width: 450px;
+    height: 468px;
+    margin-left: 10.4vw;
+    background-color:  #1F2C6C4D;
+}
+.icon-background{
+    background-color: #1F2C6C;
+    position: absolute;
+    top: 70vh;
+    height: 15vh;
+    width: 36.5vw;
+    margin-left: 10.4vw;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-even;
+    position: absolute;
+    top: 75vh;
+    width: 27vw;
+    margin-left: 17vw;
+    color: white;
+}
+.social-icons svg{
+    height: 5vh;
+    width: 5vw;
+    background-color: #1F2C6C;
+}

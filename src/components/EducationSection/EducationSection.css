@@ -1,0 +1,79 @@
+.EducationSection{
+    position: absolute;
+    background-color:#f9fbfd;
+    width: 100%;
+    height: 92%;
+}
+.Education-header{
+    position: relative;
+    color: #43485c;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 8vh;
+    height: 13vh;
+    border-bottom: 1px solid rgb(128,128,128,0.2);
+}
+.Education-main{
+    margin-top: 12vh;
+    text-align: left;
+    margin-left: 5vw;
+}
+.courses{
+    display: flex;
+}
+.course{
+    width: 33%;
+}
+.course-text{
+    line-height: 2rem;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.course-year{
+    color: #43485c;
+}
+.course-name{
+    color: #636a82;
+}
+.course-border{
+    display: flex;
+    width: 100%;
+    margin-top: 3vh;
+}
+.course-dot{
+    background-color: #d92cf9;
+    border-radius: 100%;
+    width: 1vw;
+    height: 2vh;
+}
+.course-line{
+    width: 93%;
+    height: 0.2vh;
+    background-color: #43485c;
+    margin-top: 0.8vh;
+    margin-left: 0.5vw;
+}
+.end{
+    width: 50%;
+}
+.courses-detail{
+    display: flex;
+}
+.course-detail{
+    margin-top: 0.8rem;
+}
+.university-name{
+    color: #43485c;
+    margin-top: 0.7rem;
+}
+.university-location{
+    color:#636a82;
+    margin-top: 0.7rem;
+}
+.university-detail{
+    color: #999fb3;
+    margin-top: 0.7rem;
+    width: 75%;
+
+}
