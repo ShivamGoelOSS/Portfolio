@@ -82,6 +82,7 @@
     width: 27vw;
     margin-left: 17vw;
     color: white;
+    cursor: pointer;
 }
 .social-icons svg{
     height: 5vh;

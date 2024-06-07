@@ -1,12 +1,13 @@
 .welcomeSection{
     position: relative;
     top: 0vh;
+    margin-bottom: 5vh;
 }
 .welcome-banner{
-    background-image: url("../../assets/welcome-banner.jpg");
-    height: 130vh;
+    background-image: url("../../assets/user-background.jpg");
+    height: 113vh;
     width: 100vw;
-    background-position: -350px -70px;
+    background-position: -20px -70px;
     background-repeat: no-repeat;
     background-size:auto;
 }
@@ -15,7 +16,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 122vh;
+    height: 113vh;
     background-color: rgba(31,44, 108, 0.65) ;
 }
 .welcome-greet{
@@ -51,7 +52,7 @@
     border-radius: 5px;
     position: absolute;
     top: 80vh;
-    left: 41.5vw;
+    left: 40vw;
     height: 10vh;
     font-family: sans-serif;
     width: 17vw;

@@ -1,5 +1,5 @@
 import "./WelcomeSection.css";
-import welcomeBanner from "../../assets/welcome-banner.jpg"
+import welcomeBanner from "../../assets/user-background.jpg"
 function welcomeSection(){
     return <div id="Home" className="welcomeSection">
         <div className="welcome-banner"></div>

@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faGithubSquare, faLinkedin, faTwitterSquare, faFigma } from '@fortawesome/free-brands-svg-icons';
 import boy_portrait from "../../assets/boy-portrait.jpg";
 function AboutSection(){
+    function handleClick(){
+        window.location.href="https://github.com/ShivamGoelOSS";
+    }
     return <div id="About" className="aboutSection">
         <p className="about">ABOUT ME</p>
         <div className="about-side">
@@ -12,15 +15,15 @@ function AboutSection(){
                 <div className="contact">
                     <div>
                         <h3>Phone</h3>
-                        <p>987-123-6547</p>
+                        <p>XXXXXXXXXX</p>
                     </div>
                     <div>
                         <h3>Email</h3>
-                        <p>browny@info.com</p>
+                        <p>shivam@info.com</p>
                     </div>
                     <div>
                         <h3>Website</h3>
-                        <p>www.brownsine.com</p>
+                        <p>www.portfolio.com</p>
                     </div>
                 </div>
             </div>
@@ -30,7 +33,7 @@ function AboutSection(){
                 <div className="icon-background"></div>
                 <div className="social-icons">
                     <span><FontAwesomeIcon icon={faFacebookSquare} /></span>
-                    <span><FontAwesomeIcon icon={faGithubSquare} /></span>
+                    <span onClick={handleClick}><FontAwesomeIcon icon={faGithubSquare} /></span>
                     <span><FontAwesomeIcon icon={faLinkedin} /></span>
                     <span><FontAwesomeIcon icon={faTwitterSquare}/></span>
                     <span><FontAwesomeIcon icon={faFigma} /></span>
