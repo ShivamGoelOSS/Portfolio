@@ -36,6 +36,10 @@ function ProjectSection(){
                     <span className="Project-icon"><FontAwesomeIcon icon={faImage} /></span>
                     <p className="Project-name image">Image Editor</p>
                 </div>
+                {/* <div className="single-profile-overlay" onClick={handleClick1}>
+                    <span className="Project-icon"><FontAwesomeIcon icon={faImage} /></span>
+                    <p className="Project-name image">Image Editor</p>
+                </div> */}
                 <div className="Project" onClick={handleClick2}>
                     <span className="Project-icon"><FontAwesomeIcon icon={faCircleQuestion} /></span>
                     <p className="Project-name quiz">Quiz App</p>

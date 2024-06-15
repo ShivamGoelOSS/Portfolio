@@ -5,6 +5,7 @@ import Typing from './components/Typing';
 import AboutSection from './components/AboutSection/AboutSection';
 import EducationSection from './components/EducationSection/EducationSection';
 import ProjectSection from './components/ProjectSection/ProjectSection';
+import SkillsSection from './components/SkillsSection/SkillsSection';
 // import Tile from './components/Tile';
 // import Banner from './components/Banner';
 // import Progress from './components/Progress/Progress';
@@ -30,6 +31,7 @@ function App() {
         <AboutSection/>
         <EducationSection/>
         <ProjectSection/>
+        <SkillsSection/>
         {/* <Tile header={"Class is going on"}
         subHeader={"Everyone is making a title"}
         img={"https://cdn.dribbble.com/users/3484830/screenshots/16787618/media/b134e73ef667b926c76d8ce3f962dba2.gif"}

@@ -1,7 +1,7 @@
 import "./AboutSection.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faGithubSquare, faLinkedin, faTwitterSquare, faFigma } from '@fortawesome/free-brands-svg-icons';
-import boy_portrait from "../../assets/boy-portrait.jpg";
+import boy_portrait from "../../assets/shivam-portrait.jpeg";
 function AboutSection(){
     function handleClick(){
         window.location.href="https://github.com/ShivamGoelOSS";
@@ -10,8 +10,8 @@ function AboutSection(){
         <p className="about">ABOUT ME</p>
         <div className="about-side">
             <div className="about-left">
-                <h3 className="intro-overview">I am a Professional UI/UX Designer and Web developer. Consectetur an adipisi elita, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</h3>
-                <p className="intro-detail">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspi unde omnis iste natus error sit voluptatem accusantium doloremque lauda ntium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vo luptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                <h3 className="intro-overview">Hello there! My name is Shivam Goel, and I'm currently a student at the esteemed Scaler School of Technology in Bangalore, pursuing my passion for becoming a full stack developer.</h3>
+                <p className="intro-detail">Driven by a deep interest in both front-end and back-end development, I am actively seeking internship opportunities where I can apply my skills in real-world scenarios, further honing my abilities. My coursework has equipped me with a solid foundation in languages such as JavaScript, Python, and Java, alongside frameworks like React and Spring Boot.  I am eager to contribute to innovative projects and immerse myself in the dynamic environment of development.</p>
                 <div className="contact">
                     <div>
                         <h3>Phone</h3>
@@ -23,7 +23,7 @@ function AboutSection(){
                     </div>
                     <div>
                         <h3>Website</h3>
-                        <p>www.portfolio.com</p>
+                        <p>devshivam.vercel.app</p>
                     </div>
                 </div>
             </div>
